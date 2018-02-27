@@ -1,4 +1,4 @@
-# Binding ViewModel in iOS - MVVM Design Pattern
+# Binding in iOS - MVVM Design Pattern
 Our job, in this most simple of examples, is to make a text field that synchronises its text with the name value in that struct.
 
 ## Main Targets
