@@ -1,5 +1,5 @@
 # Binding ViewModel in iOS - MVVM Design Pattern
-This IOS app demonstrates unit tests and user interface tests using Xcode's built-in testing framework.
+Our job, in this most simple of examples, is to make a text field that synchronises its text with the name value in that struct.
 
 ## Main Targets
 MVVM
