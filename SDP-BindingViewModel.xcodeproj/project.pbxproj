@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3EF5382045C67B0039F3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF5372045C67B0039F3AC /* AppDelegate.swift */; };
+		CD3EF53A2045C67B0039F3AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF5392045C67B0039F3AC /* ViewController.swift */; };
+		CD3EF53D2045C67B0039F3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3EF53B2045C67B0039F3AC /* Main.storyboard */; };
+		CD3EF53F2045C67B0039F3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3EF53E2045C67B0039F3AC /* Assets.xcassets */; };
+		CD3EF5422045C67B0039F3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3EF5402045C67B0039F3AC /* LaunchScreen.storyboard */; };
+		CD3EF54D2045C67C0039F3AC /* SDP_BindingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF54C2045C67C0039F3AC /* SDP_BindingViewModelTests.swift */; };
+		CD3EF5582045C67C0039F3AC /* SDP_BindingViewModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF5572045C67C0039F3AC /* SDP_BindingViewModelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3EF5492045C67C0039F3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3EF52C2045C67B0039F3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3EF5332045C67B0039F3AC;
+			remoteInfo = "SDP-BindingViewModel";
+		};
+		CD3EF5542045C67C0039F3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3EF52C2045C67B0039F3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3EF5332045C67B0039F3AC;
+			remoteInfo = "SDP-BindingViewModel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3EF5342045C67B0039F3AC /* SDP-BindingViewModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDP-BindingViewModel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3EF5372045C67B0039F3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD3EF5392045C67B0039F3AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD3EF53C2045C67B0039F3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3EF53E2045C67B0039F3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3EF5412045C67B0039F3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3EF5432045C67B0039F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3EF5482045C67C0039F3AC /* SDP-BindingViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDP-BindingViewModelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3EF54C2045C67C0039F3AC /* SDP_BindingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDP_BindingViewModelTests.swift; sourceTree = "<group>"; };
+		CD3EF54E2045C67C0039F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3EF5532045C67C0039F3AC /* SDP-BindingViewModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDP-BindingViewModelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3EF5572045C67C0039F3AC /* SDP_BindingViewModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDP_BindingViewModelUITests.swift; sourceTree = "<group>"; };
+		CD3EF5592045C67C0039F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3EF5312045C67B0039F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EF5452045C67C0039F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EF5502045C67C0039F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3EF52B2045C67B0039F3AC = {
+			isa = PBXGroup;
+			children = (
+				CD3EF5362045C67B0039F3AC /* SDP-BindingViewModel */,
+				CD3EF54B2045C67C0039F3AC /* SDP-BindingViewModelTests */,
+				CD3EF5562045C67C0039F3AC /* SDP-BindingViewModelUITests */,
+				CD3EF5352045C67B0039F3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3EF5352045C67B0039F3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EF5342045C67B0039F3AC /* SDP-BindingViewModel.app */,
+				CD3EF5482045C67C0039F3AC /* SDP-BindingViewModelTests.xctest */,
+				CD3EF5532045C67C0039F3AC /* SDP-BindingViewModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3EF5362045C67B0039F3AC /* SDP-BindingViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EF5372045C67B0039F3AC /* AppDelegate.swift */,
+				CD3EF5392045C67B0039F3AC /* ViewController.swift */,
+				CD3EF53B2045C67B0039F3AC /* Main.storyboard */,
+				CD3EF53E2045C67B0039F3AC /* Assets.xcassets */,
+				CD3EF5402045C67B0039F3AC /* LaunchScreen.storyboard */,
+				CD3EF5432045C67B0039F3AC /* Info.plist */,
+			);
+			path = "SDP-BindingViewModel";
+			sourceTree = "<group>";
+		};
+		CD3EF54B2045C67C0039F3AC /* SDP-BindingViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EF54C2045C67C0039F3AC /* SDP_BindingViewModelTests.swift */,
+				CD3EF54E2045C67C0039F3AC /* Info.plist */,
+			);
+			path = "SDP-BindingViewModelTests";
+			sourceTree = "<group>";
+		};
+		CD3EF5562045C67C0039F3AC /* SDP-BindingViewModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EF5572045C67C0039F3AC /* SDP_BindingViewModelUITests.swift */,
+				CD3EF5592045C67C0039F3AC /* Info.plist */,
+			);
+			path = "SDP-BindingViewModelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3EF5332045C67B0039F3AC /* SDP-BindingViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3EF55C2045C67C0039F3AC /* Build configuration list for PBXNativeTarget "SDP-BindingViewModel" */;
+			buildPhases = (
+				CD3EF5302045C67B0039F3AC /* Sources */,
+				CD3EF5312045C67B0039F3AC /* Frameworks */,
+				CD3EF5322045C67B0039F3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDP-BindingViewModel";
+			productName = "SDP-BindingViewModel";
+			productReference = CD3EF5342045C67B0039F3AC /* SDP-BindingViewModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3EF5472045C67C0039F3AC /* SDP-BindingViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3EF55F2045C67C0039F3AC /* Build configuration list for PBXNativeTarget "SDP-BindingViewModelTests" */;
+			buildPhases = (
+				CD3EF5442045C67C0039F3AC /* Sources */,
+				CD3EF5452045C67C0039F3AC /* Frameworks */,
+				CD3EF5462045C67C0039F3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3EF54A2045C67C0039F3AC /* PBXTargetDependency */,
+			);
+			name = "SDP-BindingViewModelTests";
+			productName = "SDP-BindingViewModelTests";
+			productReference = CD3EF5482045C67C0039F3AC /* SDP-BindingViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3EF5522045C67C0039F3AC /* SDP-BindingViewModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3EF5622045C67C0039F3AC /* Build configuration list for PBXNativeTarget "SDP-BindingViewModelUITests" */;
+			buildPhases = (
+				CD3EF54F2045C67C0039F3AC /* Sources */,
+				CD3EF5502045C67C0039F3AC /* Frameworks */,
+				CD3EF5512045C67C0039F3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3EF5552045C67C0039F3AC /* PBXTargetDependency */,
+			);
+			name = "SDP-BindingViewModelUITests";
+			productName = "SDP-BindingViewModelUITests";
+			productReference = CD3EF5532045C67C0039F3AC /* SDP-BindingViewModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3EF52C2045C67B0039F3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Soheil Novinfard";
+				TargetAttributes = {
+					CD3EF5332045C67B0039F3AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD3EF5472045C67C0039F3AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3EF5332045C67B0039F3AC;
+					};
+					CD3EF5522045C67C0039F3AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3EF5332045C67B0039F3AC;
+					};
+				};
+			};
+			buildConfigurationList = CD3EF52F2045C67B0039F3AC /* Build configuration list for PBXProject "SDP-BindingViewModel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3EF52B2045C67B0039F3AC;
+			productRefGroup = CD3EF5352045C67B0039F3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3EF5332045C67B0039F3AC /* SDP-BindingViewModel */,
+				CD3EF5472045C67C0039F3AC /* SDP-BindingViewModelTests */,
+				CD3EF5522045C67C0039F3AC /* SDP-BindingViewModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3EF5322045C67B0039F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EF5422045C67B0039F3AC /* LaunchScreen.storyboard in Resources */,
+				CD3EF53F2045C67B0039F3AC /* Assets.xcassets in Resources */,
+				CD3EF53D2045C67B0039F3AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EF5462045C67C0039F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EF5512045C67C0039F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3EF5302045C67B0039F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EF53A2045C67B0039F3AC /* ViewController.swift in Sources */,
+				CD3EF5382045C67B0039F3AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EF5442045C67C0039F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EF54D2045C67C0039F3AC /* SDP_BindingViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3EF54F2045C67C0039F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3EF5582045C67C0039F3AC /* SDP_BindingViewModelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3EF54A2045C67C0039F3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3EF5332045C67B0039F3AC /* SDP-BindingViewModel */;
+			targetProxy = CD3EF5492045C67C0039F3AC /* PBXContainerItemProxy */;
+		};
+		CD3EF5552045C67C0039F3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3EF5332045C67B0039F3AC /* SDP-BindingViewModel */;
+			targetProxy = CD3EF5542045C67C0039F3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3EF53B2045C67B0039F3AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3EF53C2045C67B0039F3AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3EF5402045C67B0039F3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3EF5412045C67B0039F3AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3EF55A2045C67C0039F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD3EF55B2045C67C0039F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3EF55D2045C67C0039F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				INFOPLIST_FILE = "SDP-BindingViewModel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinfard.SDP-BindingViewModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3EF55E2045C67C0039F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				INFOPLIST_FILE = "SDP-BindingViewModel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinfard.SDP-BindingViewModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD3EF5602045C67C0039F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				INFOPLIST_FILE = "SDP-BindingViewModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinfard.SDP-BindingViewModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDP-BindingViewModel.app/SDP-BindingViewModel";
+			};
+			name = Debug;
+		};
+		CD3EF5612045C67C0039F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				INFOPLIST_FILE = "SDP-BindingViewModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinfard.SDP-BindingViewModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDP-BindingViewModel.app/SDP-BindingViewModel";
+			};
+			name = Release;
+		};
+		CD3EF5632045C67C0039F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				INFOPLIST_FILE = "SDP-BindingViewModelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinfard.SDP-BindingViewModelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SDP-BindingViewModel";
+			};
+			name = Debug;
+		};
+		CD3EF5642045C67C0039F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				INFOPLIST_FILE = "SDP-BindingViewModelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novinfard.SDP-BindingViewModelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SDP-BindingViewModel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3EF52F2045C67B0039F3AC /* Build configuration list for PBXProject "SDP-BindingViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EF55A2045C67C0039F3AC /* Debug */,
+				CD3EF55B2045C67C0039F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3EF55C2045C67C0039F3AC /* Build configuration list for PBXNativeTarget "SDP-BindingViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EF55D2045C67C0039F3AC /* Debug */,
+				CD3EF55E2045C67C0039F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3EF55F2045C67C0039F3AC /* Build configuration list for PBXNativeTarget "SDP-BindingViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EF5602045C67C0039F3AC /* Debug */,
+				CD3EF5612045C67C0039F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3EF5622045C67C0039F3AC /* Build configuration list for PBXNativeTarget "SDP-BindingViewModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3EF5632045C67C0039F3AC /* Debug */,
+				CD3EF5642045C67C0039F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3EF52C2045C67B0039F3AC /* Project object */;
+}
