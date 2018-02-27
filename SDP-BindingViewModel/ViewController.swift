@@ -11,16 +11,22 @@ import UIKit
 class ViewController: UIViewController {
 	@IBOutlet weak var username: BoundTextField!
 	var user: User!
+	var observers = [NSKeyValueObservation]()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 		
-		user = User(name: Observable("Test"))
-		username.bind(to: user.name)
+		user = User(name: "Soheil")
+		let observer = user.observe(\User.name, options: .new) { [weak
+			self] user, change in
+			self?.username.text = change.newValue ?? ""
+		}
+		
+		observers.append(observer)
 		
 		DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-			self.user.name.value = "Bilbo Baggins"
+			self.user.name = "Bilbo Baggins"
 		}
 	}
 
@@ -32,53 +38,15 @@ class ViewController: UIViewController {
 
 }
 
-struct User {
-   var name: Observable<String>
-}
-
-class Observable<ObservedType> {
-	private var _value: ObservedType?
-	
-	var valueChanged: ((ObservedType?) -> ())?
-	
-	init(_ value: ObservedType) {
-		_value = value
+class User: NSObject {
+	@objc dynamic var name: String
+	init(name: String) {
+		self.name = name
 	}
-	
-	public var value: ObservedType? {
-		get {
-			return _value
-		}
-		set {
-			_value = newValue
-			valueChanged?(_value)
-		}
-	}
-	
-	func bindingChanged(to newValue: ObservedType) {
-		_value = newValue
-		print("Value is now \(newValue)")
-	}
-	
 }
 
 class BoundTextField: UITextField {
-	var changedClosure: (() -> ())?
-	
-	@objc func valueChanged() {
-		changedClosure?()
-	}
-	
-	func bind(to observable: Observable<String>) {
-		addTarget(self, action:
-			#selector(BoundTextField.valueChanged), for: .editingChanged)
-		changedClosure = { [weak self] in
-			observable.bindingChanged(to: self?.text ?? "")
-		}
-		observable.valueChanged = { [weak self] newValue in
-			self?.text = newValue
-		}
-	}
+
 }
 
 
